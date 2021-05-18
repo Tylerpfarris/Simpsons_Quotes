@@ -15,7 +15,7 @@ const SimpsonsQuote = () => {
     <>
       <h1>Simpsons Quote</h1>
         <Load onClick={handleOnClick} />
-        <Quote  quote={quote.quote} character={quote.character} image={quote.image} />
+        <Quote  {...quote} />
     </>
   );
 }
